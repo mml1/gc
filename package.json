@@ -1,0 +1,14 @@
+{
+  "name": "givecampus",
+  "version": "1.0.0",
+  "description": "Coding Challenge for GiveCampus",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "Mari Lliguicota",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

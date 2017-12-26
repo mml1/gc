@@ -54,13 +54,24 @@ body {
   .card-front {
     border: #777777 1px solid; }
   .card-back {
+    text-align: center;
     border: #777777 1px solid; }
     .card-back-bottom {
       text-align: center; }
 
-.table .row {
-  border-top: 1px solid #777777;
-  border-bottom: 1px solid #777777; }
+.table {
+  padding: 5%; }
+  .table-row {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 5px;
+    border-top: 1px solid #777777; }
+    .table-row::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .table-row:last-child {
+      border-bottom: 1px solid #777777; }
 
 .row {
   max-width: 114rem;

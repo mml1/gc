@@ -1,7 +1,15 @@
 .table{
-    .row{
+    padding: 5%;
+    &-row{
+        max-width: $grid-width;
+        margin: 0 auto;
+        @include clearfix;
+        padding: 5px;
         border-top: 1px solid $college-secondary;
-        border-bottom: 1px solid $college-secondary;
+        &:last-child {
+            border-bottom: 1px solid $college-secondary;
+        }
+
     }
 
 

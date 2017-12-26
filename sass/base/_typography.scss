@@ -1,0 +1,38 @@
+body {
+    color: $college-secondary;
+    [class^="college-header_"] {
+        display:block;
+    }
+    .college-header_1 {
+        font-size: 2.5rem;
+        color: $college-tertiary;
+        font-weight: 400;
+
+    }
+
+    .college-header_2 {
+        font-size: 2.0rem;
+    }
+
+    .college-header_3 {
+        font-size: 1.5rem;
+        color: $college-primary;
+        font-weight: 400;
+
+    }
+    .college-header_4 {
+        font-size: 1rem;
+        color: $college-tertiary;
+        font-weight: 600;
+    }
+
+    .college-para {
+        font-size: 1rem;
+    }
+
+    .em-text {
+        font-weight: 700;
+        color: $college-tertiary;
+
+    }
+}

@@ -1,0 +1,11 @@
+.card{
+    width: calc((100% - #{$gutter-horizontal}) / 5);
+    &-front{
+        border: $college-secondary 1px solid;
+
+    }
+    &-back{
+        border: $college-secondary 1px solid;
+
+    }
+}

@@ -1,2 +1,65 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
 body {
-  background: green; }
+  box-sizing: border-box; }
+
+body {
+  color: #777777; }
+  body [class^="college-header_"] {
+    display: block; }
+  body .college-header_1 {
+    font-size: 2.5rem;
+    color: #02161b;
+    font-weight: 400; }
+  body .college-header_2 {
+    font-size: 2.0rem; }
+  body .college-header_3 {
+    font-size: 1.5rem;
+    color: #8e35a4;
+    font-weight: 400; }
+  body .college-header_4 {
+    font-size: 1rem;
+    color: #02161b;
+    font-weight: 600; }
+  body .college-para {
+    font-size: 1rem; }
+  body .em-text {
+    font-weight: 700;
+    color: #02161b; }
+
+.card {
+  width: calc((100% - 2rem) / 5); }
+  .card-front {
+    border: #777777 1px solid; }
+  .card-back {
+    border: #777777 1px solid; }
+
+.table-row {
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 2rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 2rem; }
+  .row .col-6 {
+    width: calc((100% - 2rem) / 2); }
+  .row .col-4 {
+    width: calc((100% - 2 * 2rem) / 3); }

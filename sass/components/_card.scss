@@ -6,6 +6,10 @@
     }
     &-back{
         border: $college-secondary 1px solid;
+        &-bottom{
+            // margin: 0 auto;
+            text-align: center;
+        }
 
     }
 }

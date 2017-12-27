@@ -1,15 +1,15 @@
-.college-button{
+.college-button {
     width: 75%;
+    background: $college-primary;
+    margin: 2em 0;
     text-align: center;
     font-weight: 600;
     font-size: 1em;
-    background: $college-primary;
     color: $color-white;
-    padding: 3% 0px; 
+    padding: 3% 0;
     text-transform: uppercase;
-    border-top-left-radius:2em;
-    border-top-right-radius:2em;
-    border-bottom-left-radius:2em;
-    border-bottom-right-radius:2em;
-
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
 }

@@ -24,7 +24,8 @@ body {
   body .college-header_3 {
     font-size: 1.5rem;
     color: #8e35a4;
-    font-weight: 400; }
+    font-weight: 400;
+    padding: 0.1em 0; }
   body .college-header_4 {
     font-size: 1rem;
     color: #02161b;
@@ -37,12 +38,13 @@ body {
 
 .college-button {
   width: 75%;
+  background: #8e35a4;
+  margin: 2em 0;
   text-align: center;
   font-weight: 600;
   font-size: 1em;
-  background: #8e35a4;
   color: #FFFFFF;
-  padding: 3% 0px;
+  padding: 3% 0;
   text-transform: uppercase;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
@@ -52,32 +54,32 @@ body {
 .card {
   width: calc((100% - 2rem) / 5); }
   .card-front {
-    border: #777777 1px solid; }
+    border: #777777 1px solid;
+    padding: 1em; }
   .card-back {
+    padding: 1em;
     text-align: center;
     border: #777777 1px solid; }
     .card-back-bottom {
-      text-align: center; }
+      height: 25%;
+      padding: 1em 0; }
 
-.table {
-  padding: 5%; }
-  .table-row {
-    max-width: 114rem;
-    margin: 0 auto;
-    padding: 5px;
-    border-top: 1px solid #777777; }
-    .table-row::after {
-      content: "";
-      display: table;
-      clear: both; }
-    .table-row:last-child {
-      border-bottom: 1px solid #777777; }
+.table-row {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 5px;
+  border-top: 1px solid #777777; }
+  .table-row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .table-row:last-child {
+    border-bottom: 1px solid #777777; }
 
 .row {
   max-width: 114rem;
-  margin: 0 auto; }
-  .row:not(:last-child) {
-    margin-bottom: 2rem; }
+  margin: 0 auto;
+  padding-top: 0.5em; }
   .row::after {
     content: "";
     display: table;

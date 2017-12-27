@@ -1,16 +1,19 @@
-.card{
+.card {
     width: calc((100% - #{$gutter-horizontal}) / 5);
-    &-front{
-        border: $college-secondary 1px solid;
 
+    &-front {
+        border: $college-secondary 1px solid;
+        padding: 1em;
     }
-    &-back{
+
+    &-back {
+        padding: 1em;
         text-align: center;
         border: $college-secondary 1px solid;
-        &-bottom{
-            // margin: 0 auto;
-            text-align: center;
-        }
 
+        &-bottom {
+            height:25%;
+            padding: 1em 0;
+        }
     }
 }

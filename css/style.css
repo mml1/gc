@@ -12,6 +12,8 @@ body {
   box-sizing: border-box; }
 
 body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   color: #A4ACAF; }
   body [class^="college-header_"] {
     display: block; }

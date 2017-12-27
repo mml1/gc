@@ -43,6 +43,7 @@ body {
   text-align: right; }
 
 .college-button {
+  outline: none;
   width: 75%;
   background: #73009A;
   margin: 2em 0;

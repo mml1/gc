@@ -7,7 +7,7 @@
     			var total = 0;
     			for (var i = 0; i < data.length; i++) {
     				total += data[i].amount;
-    				donorFormatted.push('\n<div class="table-row"> \n \t <div class="col-4">' + data[i].name + '</div> <div class="col-4">$' + data[i].amount + '</div> <div class="col-4">' + data[i].type + '</div></div>')
+    				donorFormatted.push('\n<div class="table-row"> \n \t <div class="col-4 donor-name">' + data[i].name + '</div> <div class="col-4">$' + data[i].amount + '</div> <div class="col-4">' + data[i].type + '</div></div>')
 
     			}
 

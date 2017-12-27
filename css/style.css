@@ -105,6 +105,8 @@ body {
     content: "";
     display: table;
     clear: both; }
+  .table-row .donor-name {
+    text-align: left; }
   .table-row:last-child {
     border-bottom: 1px solid #F5F4F5; }
 

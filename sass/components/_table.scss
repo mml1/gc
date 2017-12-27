@@ -1,4 +1,5 @@
-.table{
+.table {
+
 
     &-row{
         max-width: $grid-width;
@@ -6,11 +7,12 @@
         @include clearfix;
         padding: 5px;
         border-top: 1px solid $color-grey-light;
+        .donor-name{
+            text-align: left;
+        }
         &:last-child {
             border-bottom: 1px solid $color-grey-light;
         }
 
     }
-
-
 }

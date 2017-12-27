@@ -5,7 +5,7 @@
     &-front {
         height: 60vh;
         border: $color-grey-light 1px solid;
-        box-shadow: 0.7em $color-grey-mid;
+        box-shadow: 0.1em 0.1em 0.5em $color-grey-light;
         &-img {
             background: url("../img/campus.png") center no-repeat;
             background-size:cover;

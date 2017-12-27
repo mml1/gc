@@ -65,7 +65,7 @@ body {
   .card-front {
     height: 60vh;
     border: #F5F4F5 1px solid;
-    box-shadow: 0.7em #C2C2C2; }
+    box-shadow: 0.1em 0.1em 0.5em #F5F4F5; }
     .card-front-img {
       background: url("../img/campus.png") center no-repeat;
       background-size: cover;

@@ -61,31 +61,28 @@ body {
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 2em; }
 
-.card {
-  margin: 0 auto;
-  margin-top: 5em;
-  width: 57%; }
-  .card-front {
-    height: 80vh;
-    border: #F5F4F5 1px solid;
-    box-shadow: 0.1em 0.1em 0.5em #F5F4F5; }
-    .card-front-img {
-      background: url("../img/campus.png") center no-repeat;
-      background-size: cover;
-      height: 38vh; }
-    .card-front-desc {
-      padding: 1.5em; }
-  .card-back {
-    height: 80vh;
-    padding: 1.5em;
-    text-align: center;
-    border: #F5F4F5 1px solid;
-    box-shadow: 0.1em 0.1em 0.5em #F5F4F5; }
-    .card-back-title {
-      padding: 1.1em 0; }
-    .card-back-bottom {
-      padding-top: 5em;
-      height: 25vh; }
+.card-front {
+  height: 80vh;
+  border: #F5F4F5 1px solid;
+  box-shadow: 0.1em 0.1em 0.5em #F5F4F5; }
+  .card-front-img {
+    background: url("../img/campus.png") center no-repeat;
+    background-size: cover;
+    height: 38vh; }
+  .card-front-desc {
+    padding: 1.5em; }
+
+.card-back {
+  height: 80vh;
+  padding: 1.5em;
+  text-align: center;
+  border: #F5F4F5 1px solid;
+  box-shadow: 0.1em 0.1em 0.5em #F5F4F5; }
+  .card-back-title {
+    padding: 1.1em 0; }
+  .card-back-bottom {
+    padding-top: 5em;
+    height: 25vh; }
 
 .tracker {
   padding-top: 3.0em;
@@ -105,9 +102,11 @@ body {
 
 .table-row {
   max-width: 114rem;
+  height: 30px;
   margin: 0 auto;
   padding: 5px;
-  border-top: 1px solid #F5F4F5; }
+  border-top: 1px solid #F5F4F5;
+  overflow: hidden; }
   .table-row::after {
     content: "";
     display: table;
@@ -127,8 +126,18 @@ body {
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
-      margin-right: 2rem; }
+      margin-right: 5rem; }
   .row .col-6 {
-    width: calc((100% - 2rem) / 2); }
+    display: inline-block;
+    width: calc((100% - 5rem) / 2); }
+    @media (max-width: 800px) {
+      .row .col-6 {
+        display: block;
+        width: 100%; } }
   .row .col-4 {
-    width: calc((100% - 2 * 2rem) / 3); }
+    width: calc((100% - 2 * 5rem) / 3); }
+
+.section-donate {
+  margin: 0 auto;
+  margin-top: 5em;
+  max-width: 80%; }

@@ -4,7 +4,7 @@
     width: 57%;
 
     &-front {
-        height: 90vh;
+        height: 80vh;
         border: $color-grey-light 1px solid;
         box-shadow: 0.1em 0.1em 0.5em $color-grey-light;
 
@@ -13,14 +13,14 @@
             background-size: cover;
             height: 38vh;
         }
-        
+
         &-desc{
             padding: 1.5em;
         }
     }
 
     &-back {
-        height: 90vh;
+        height: 80vh;
         padding: 1.5em;
         text-align: center;
         border: $color-grey-light 1px solid;
@@ -31,7 +31,7 @@
         }
 
         &-bottom {
-            padding-top: 2em;
+            padding-top: 5em;
             height:25vh;
         }
     }

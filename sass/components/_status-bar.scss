@@ -1,18 +1,19 @@
 .tracker{
-    padding-top: 5em;
-&-bar {
-    margin: 0.5em 0px;
-    background: $color-grey-mid;
-    height: 25px;
-    position: relative;
-    z-index: 5;
+    padding-top: 3.0em;
+    font-size: 1.3em;
+    &-bar {
+        margin: 0.5em 0px;
+        background: $color-grey-mid;
+        height: 25px;
+        position: relative;
+        z-index: 5;
 
-    &-fill {
-        position: absolute;
-        background: $college-primary;
-        height: inherit;
-        width: 75%;
-        z-index: 10;
+        &-fill {
+            position: absolute;
+            background: $college-primary;
+            height: inherit;
+            width: 75%;
+            z-index: 10;
+        }
     }
-}
 }

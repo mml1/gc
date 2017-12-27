@@ -1,40 +1,41 @@
 body {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
-    line-height: 1.7;
+    // font-size: 1.1em;
+
+    line-height: 1.5;
 
     color: $college-secondary;
     [class^="college-header_"] {
         display:block;
     }
     .college-header_1 {
-        font-size: 2.5rem;
+        font-size: 3.0rem;
         color: $college-tertiary;
         font-weight: 400;
 
     }
 
     .college-header_2 {
-        font-size: 2.0rem;
+        font-size: 2.5rem;
     }
 
     .college-header_3 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         color: $college-primary;
         font-weight: 400;
-        padding: 0.1em 0;
 
 
     }
     .college-header_4 {
-        font-size: 1rem;
+        font-size: 1.3rem;
         color: $college-tertiary;
-        font-weight: 600;
+        // font-weight: 600;
     }
 
     .college-desc {
-        font-size: 1em;
-        margin: 2em 0;
+        font-size: 1.3em;
+        margin: 1.5em 0;
+        font-weight: 300;
     }
 
     .em-text {

@@ -13,29 +13,27 @@ body {
 
 body {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #A4ACAF; }
   body [class^="college-header_"] {
     display: block; }
   body .college-header_1 {
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     color: #002637;
     font-weight: 400; }
   body .college-header_2 {
-    font-size: 2.0rem; }
+    font-size: 2.5rem; }
   body .college-header_3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: #73009A;
-    font-weight: 400;
-    padding: 0.1em 0; }
+    font-weight: 400; }
   body .college-header_4 {
-    font-size: 1rem;
-    color: #002637;
-    font-weight: 600; }
+    font-size: 1.3rem;
+    color: #002637; }
   body .college-desc {
-    font-size: 1em;
-    margin: 2em 0; }
+    font-size: 1.3em;
+    margin: 1.5em 0;
+    font-weight: 300; }
   body .em-text {
     font-weight: 700;
     color: #002637; }
@@ -61,9 +59,10 @@ body {
 
 .card {
   margin: 0 auto;
+  margin-top: 5em;
   width: calc((100% - 2rem) / 5); }
   .card-front {
-    height: 60vh;
+    min-height: 60vh;
     border: #F5F4F5 1px solid;
     box-shadow: 0.1em 0.1em 0.5em #F5F4F5; }
     .card-front-img {
@@ -71,18 +70,22 @@ body {
       background-size: cover;
       height: 25vh; }
     .card-front-desc {
-      padding: 1em; }
+      padding: 1.5em; }
   .card-back {
-    height: 60vh;
-    padding: 1em;
+    min-height: 60vh;
+    padding: 1.5em;
     text-align: center;
-    border: #F5F4F5 1px solid; }
+    border: #F5F4F5 1px solid;
+    box-shadow: 0.1em 0.1em 0.5em #F5F4F5; }
+    .card-back-title {
+      padding: 1.1em 0; }
     .card-back-bottom {
-      height: 25vh;
-      padding: 1em 0; }
+      padding-top: 5em;
+      height: 25vh; }
 
 .tracker {
-  padding-top: 5em; }
+  padding-top: 3.0em;
+  font-size: 1.3em; }
   .tracker-bar {
     margin: 0.5em 0px;
     background: #C2C2C2;

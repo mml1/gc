@@ -1,13 +1,13 @@
 .table{
-    
+
     &-row{
         max-width: $grid-width;
         margin: 0 auto;
         @include clearfix;
         padding: 5px;
-        border-top: 1px solid $college-secondary;
+        border-top: 1px solid $color-grey-light;
         &:last-child {
-            border-bottom: 1px solid $college-secondary;
+            border-bottom: 1px solid $color-grey-light;
         }
 
     }

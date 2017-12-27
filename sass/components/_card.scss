@@ -4,7 +4,8 @@
 
     &-front {
         height: 60vh;
-        border: $college-secondary 1px solid;
+        border: $color-grey-light 1px solid;
+        box-shadow: 0.7em $color-grey-mid;
         &-img {
             background: url("../img/campus.png") center no-repeat;
             background-size:cover;
@@ -19,7 +20,7 @@
         height: 60vh;
         padding: 1em;
         text-align: center;
-        border: $college-secondary 1px solid;
+        border: $color-grey-light 1px solid;
 
         &-bottom {
             height:25vh;

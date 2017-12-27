@@ -12,37 +12,37 @@ body {
   box-sizing: border-box; }
 
 body {
-  color: #777777; }
+  color: #A4ACAF; }
   body [class^="college-header_"] {
     display: block; }
   body .college-header_1 {
     font-size: 2.5rem;
-    color: #02161b;
+    color: #002637;
     font-weight: 400; }
   body .college-header_2 {
     font-size: 2.0rem; }
   body .college-header_3 {
     font-size: 1.5rem;
-    color: #8e35a4;
+    color: #73009A;
     font-weight: 400;
     padding: 0.1em 0; }
   body .college-header_4 {
     font-size: 1rem;
-    color: #02161b;
+    color: #002637;
     font-weight: 600; }
   body .college-desc {
     font-size: 1em;
     margin: 2em 0; }
   body .em-text {
     font-weight: 700;
-    color: #02161b; }
+    color: #002637; }
 
 .text-right {
   text-align: right; }
 
 .college-button {
   width: 75%;
-  background: #8e35a4;
+  background: #73009A;
   margin: 2em 0;
   text-align: center;
   font-weight: 600;
@@ -60,7 +60,8 @@ body {
   width: calc((100% - 2rem) / 4); }
   .card-front {
     height: 60vh;
-    border: #777777 1px solid; }
+    border: #F5F4F5 1px solid;
+    box-shadow: 0.7em #C2C2C2; }
     .card-front-img {
       background: url("../img/campus.png") center no-repeat;
       background-size: cover;
@@ -71,7 +72,7 @@ body {
     height: 60vh;
     padding: 1em;
     text-align: center;
-    border: #777777 1px solid; }
+    border: #F5F4F5 1px solid; }
     .card-back-bottom {
       height: 25vh;
       padding: 1em 0; }
@@ -80,13 +81,13 @@ body {
   padding-top: 5em; }
   .tracker-bar {
     margin: 0.5em 0px;
-    background: #777777;
+    background: #C2C2C2;
     height: 25px;
     position: relative;
     z-index: 5; }
     .tracker-bar-fill {
       position: absolute;
-      background: #8e35a4;
+      background: #73009A;
       height: inherit;
       width: 75%;
       z-index: 10; }
@@ -95,13 +96,13 @@ body {
   max-width: 114rem;
   margin: 0 auto;
   padding: 5px;
-  border-top: 1px solid #777777; }
+  border-top: 1px solid #F5F4F5; }
   .table-row::after {
     content: "";
     display: table;
     clear: both; }
   .table-row:last-child {
-    border-bottom: 1px solid #777777; }
+    border-bottom: 1px solid #F5F4F5; }
 
 .row {
   max-width: 114rem;

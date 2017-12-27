@@ -61,7 +61,7 @@ body {
 
 .card {
   margin: 0 auto;
-  width: calc((100% - 2rem) / 4); }
+  width: calc((100% - 2rem) / 5); }
   .card-front {
     height: 60vh;
     border: #F5F4F5 1px solid;

@@ -1,6 +1,6 @@
 .card {
     margin: 0 auto;
-    width: calc((100% - #{$gutter-horizontal}) / 4);
+    width: calc((100% - #{$gutter-horizontal}) / 5);
 
     &-front {
         height: 60vh;

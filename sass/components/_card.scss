@@ -13,6 +13,7 @@
             background-size: cover;
             height: 38vh;
         }
+        
         &-desc{
             padding: 1.5em;
         }
@@ -24,10 +25,11 @@
         text-align: center;
         border: $color-grey-light 1px solid;
         box-shadow: 0.1em 0.1em 0.5em $color-grey-light;
+
         &-title {
             padding: 1.1em 0;
-
         }
+
         &-bottom {
             padding-top: 2em;
             height:25vh;

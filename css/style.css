@@ -64,6 +64,18 @@ body {
       height: 25%;
       padding: 1em 0; }
 
+.tracker-bar {
+  background: #777777;
+  height: 25px;
+  position: relative;
+  z-index: 5; }
+  .tracker-bar-fill {
+    position: absolute;
+    background: #8e35a4;
+    height: inherit;
+    width: 75%;
+    z-index: 10; }
+
 .table-row {
   max-width: 114rem;
   margin: 0 auto;

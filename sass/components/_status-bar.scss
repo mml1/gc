@@ -1,0 +1,14 @@
+.tracker-bar {
+    background: $college-secondary;
+    height: 25px;
+    position: relative;
+    z-index: 5;
+
+    &-fill {
+        position: absolute;
+        background: $college-primary;
+        height: inherit;
+        width: 75%;
+        z-index: 10;
+    }
+}

@@ -1,10 +1,10 @@
 .card {
     margin: 0 auto;
     margin-top: 5em;
-    max-width: calc((100% - #{$gutter-horizontal}) / 4);
+    width: 57%;
 
     &-front {
-        min-height: 60vh;
+        height: 90vh;
         border: $color-grey-light 1px solid;
         box-shadow: 0.1em 0.1em 0.5em $color-grey-light;
 
@@ -19,7 +19,7 @@
     }
 
     &-back {
-        min-height: 60vh;
+        height: 90vh;
         padding: 1.5em;
         text-align: center;
         border: $color-grey-light 1px solid;
@@ -29,7 +29,7 @@
 
         }
         &-bottom {
-            padding-top: 5em;
+            padding-top: 2em;
             height:25vh;
         }
     }

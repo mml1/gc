@@ -14,7 +14,7 @@
                 // Using data from json req to create donor table rows and total
     			document.getElementById("donors").innerHTML = donorFormatted.join('');
     			document.getElementById("total").innerHTML = '<h1 class="college-header_1">$' + total + '</h1>';
-                document.getElementById("small-total").innerHTML = '$' + total + ' ';
+                document.getElementById("small-total").innerHTML = '<span class="em-text" id="small-total">$' + total + '</span> Donated';
 
 
     		}

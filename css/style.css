@@ -41,6 +41,9 @@ body {
 .text-right {
   text-align: right; }
 
+.text-left {
+  text-align: left; }
+
 .college-button {
   outline: none;
   width: 75%;
@@ -60,7 +63,7 @@ body {
 .card {
   margin: 0 auto;
   margin-top: 5em;
-  width: calc((100% - 2rem) / 5); }
+  max-width: calc((100% - 2rem) / 4); }
   .card-front {
     min-height: 60vh;
     border: #F5F4F5 1px solid;
@@ -68,7 +71,7 @@ body {
     .card-front-img {
       background: url("../img/campus.png") center no-repeat;
       background-size: cover;
-      height: 25vh; }
+      height: 38vh; }
     .card-front-desc {
       padding: 1.5em; }
   .card-back {

@@ -1,7 +1,7 @@
 .card {
     margin: 0 auto;
     margin-top: 5em;
-    width: calc((100% - #{$gutter-horizontal}) / 5);
+    max-width: calc((100% - #{$gutter-horizontal}) / 4);
 
     &-front {
         min-height: 60vh;
@@ -10,8 +10,8 @@
 
         &-img {
             background: url("../img/campus.png") center no-repeat;
-            background-size:cover;
-            height: 25vh;
+            background-size: cover;
+            height: 38vh;
         }
         &-desc{
             padding: 1.5em;

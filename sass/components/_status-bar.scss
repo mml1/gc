@@ -1,4 +1,7 @@
-.tracker-bar {
+.tracker{
+    padding-top: 5em;
+&-bar {
+
     background: $college-secondary;
     height: 25px;
     position: relative;
@@ -11,4 +14,5 @@
         width: 75%;
         z-index: 10;
     }
+}
 }

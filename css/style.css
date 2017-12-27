@@ -30,8 +30,9 @@ body {
     font-size: 1rem;
     color: #02161b;
     font-weight: 600; }
-  body .college-para {
-    font-size: 1rem; }
+  body .college-desc {
+    font-size: 1em;
+    margin: 2em 0; }
   body .em-text {
     font-weight: 700;
     color: #02161b; }
@@ -52,29 +53,38 @@ body {
   border-bottom-right-radius: 2em; }
 
 .card {
-  width: calc((100% - 2rem) / 5); }
+  margin: 0 auto;
+  height: 75vh;
+  width: calc((100% - 2rem) / 4); }
   .card-front {
-    border: #777777 1px solid;
-    padding: 1em; }
+    border: #777777 1px solid; }
+    .card-front-img {
+      background: url("../img/campus.png") center no-repeat;
+      background-size: cover;
+      height: 25vh; }
+    .card-front-desc {
+      padding: 1em; }
   .card-back {
     padding: 1em;
     text-align: center;
     border: #777777 1px solid; }
     .card-back-bottom {
-      height: 25%;
+      height: 25vh;
       padding: 1em 0; }
 
-.tracker-bar {
-  background: #777777;
-  height: 25px;
-  position: relative;
-  z-index: 5; }
-  .tracker-bar-fill {
-    position: absolute;
-    background: #8e35a4;
-    height: inherit;
-    width: 75%;
-    z-index: 10; }
+.tracker {
+  padding-top: 5em; }
+  .tracker-bar {
+    background: #777777;
+    height: 25px;
+    position: relative;
+    z-index: 5; }
+    .tracker-bar-fill {
+      position: absolute;
+      background: #8e35a4;
+      height: inherit;
+      width: 75%;
+      z-index: 10; }
 
 .table-row {
   max-width: 114rem;
@@ -90,8 +100,7 @@ body {
 
 .row {
   max-width: 114rem;
-  margin: 0 auto;
-  padding-top: 0.5em; }
+  margin: 0 auto; }
   .row::after {
     content: "";
     display: table;
